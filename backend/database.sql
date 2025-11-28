@@ -1,6 +1,6 @@
 
 CREATE TYPE user_role AS ENUM ('employee', 'manager');
-CREATE TYPE request_status AS ENUM ('pending', 'approved', 'rejected', 'close');
+CREATE TYPE request_status AS ENUM ('pending', 'approved', 'rejected', 'closed');
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
