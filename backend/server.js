@@ -33,7 +33,7 @@ app.use(
 
 // 5️⃣ CORS - allow only your frontend
 const allowedOrigins = [
-  "http://localhost:8000",
+  "http://localhost:8080",
   "https://ciphrix-request-management.vercel.app", // replace with actual Vercel URL
 ];
 
